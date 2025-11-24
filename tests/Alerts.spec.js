@@ -20,7 +20,7 @@ test.skip('Alert with ok', async({page})=>{
 test.skip('Confirmation Dialog-Alert with OK and Cancel', async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/");
 
-    //Enablling Dialog window handler
+    //Enablling Dialog window handler //Dialog window handler
     page.on('dialog', async dialog=>{
      expect(dialog.type()).toContain('confirm')
      expect(dialog.message()).toContain('Press a button!')

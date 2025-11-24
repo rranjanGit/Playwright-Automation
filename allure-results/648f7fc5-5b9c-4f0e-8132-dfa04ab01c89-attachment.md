@@ -1,0 +1,85 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img "real-logo" [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - paragraph [ref=e9]: Create Account
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - text: First Name
+              - generic [ref=e15]: "*"
+            - textbox "First Name" [ref=e17] [cursor=pointer]: Rohit
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - text: Last Name
+              - generic [ref=e21]: "*"
+            - textbox "Last Name" [ref=e23] [cursor=pointer]: Ranjan
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - text: Username
+              - generic [ref=e27]: "*"
+            - textbox "Username" [active] [ref=e29] [cursor=pointer]: rohit123
+            - generic [ref=e30]: Username is already taken
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - text: Email
+              - generic [ref=e34]: "*"
+            - generic [ref=e35]:
+              - img [ref=e38]
+              - textbox "Email" [ref=e40] [cursor=pointer]: rohit123@testmail.com
+            - generic [ref=e41]: Email is already taken
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - text: Password
+              - generic [ref=e45]: "*"
+            - generic [ref=e46]:
+              - textbox "Password" [ref=e47] [cursor=pointer]: Password@123
+              - img [ref=e49] [cursor=pointer]
+          - generic [ref=e52]:
+            - generic [ref=e53]:
+              - text: Password Confirmation
+              - generic [ref=e54]: "*"
+            - generic [ref=e55]:
+              - textbox "Password Confirmation" [ref=e56] [cursor=pointer]: Password@123
+              - img [ref=e58] [cursor=pointer]
+        - generic [ref=e60]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - checkbox "By checking the box, I agree to the Privacy Policy, Terms of Use and Electronic Disclosure and Consent." [checked] [ref=e64] [cursor=pointer]
+              - generic:
+                - img
+            - paragraph [ref=e68]:
+              - text: By checking the box, I agree to the
+              - link "Privacy Policy" [ref=e69] [cursor=pointer]:
+                - /url: https://www.onereal.com/pages/privacy-policy
+              - text: ","
+              - link "Terms of Use" [ref=e70] [cursor=pointer]:
+                - /url: https://www.onereal.com/pages/terms-of-use
+              - text: and
+              - link "Electronic Disclosure" [ref=e71] [cursor=pointer]:
+                - /url: https://onereal.com/pages/electronic-disclosure
+              - text: and
+              - link "Consent" [ref=e72] [cursor=pointer]:
+                - /url: https://onereal.com/pages/data-policy
+              - text: .
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - checkbox "By checking the applicable box below, I consent by electronic signature to receive calls and text messages from Real Broker, LLC and its affiliated entities, if the applicable box is checked, made by any means or technology, for informational, marketing, or any other purposes at the phone number I provided above. I understand that my consent to such calls and text messages is not required to purchase products from or use the services of any of the entities listed below." [checked] [ref=e76] [cursor=pointer]
+              - generic:
+                - img
+            - paragraph [ref=e80]: By checking the applicable box below, I consent by electronic signature to receive calls and text messages from Real Broker, LLC and its affiliated entities, if the applicable box is checked, made by any means or technology, for informational, marketing, or any other purposes at the phone number I provided above. I understand that my consent to such calls and text messages is not required to purchase products from or use the services of any of the entities listed below.
+        - generic [ref=e81]:
+          - button "Create Account" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83] [cursor=pointer]:
+              - generic [ref=e85] [cursor=pointer]: Create Account
+              - img [ref=e87] [cursor=pointer]
+          - button "Already have an account? Log In" [ref=e89] [cursor=pointer]:
+            - generic [ref=e90] [cursor=pointer]:
+              - generic [ref=e92] [cursor=pointer]: Already have an account? Log In
+              - img [ref=e94] [cursor=pointer]
+    - img "Turn Listings Into Deals with first AI-Powered Real Estate Platform" [ref=e98]
+```

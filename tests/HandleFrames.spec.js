@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 const { url } = require('inspector');
 
-test('Alert with ok', async({page})=>{
+test('Frame', async({page})=>{
     await page.goto("https://ui.vision/demo/webtest/frames/");
 
  // total frames

@@ -1,0 +1,199 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Skip navigation" [ref=e4] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e5]:
+        - combobox "Currency selector" [ref=e8]:
+          - option "US Dollar" [selected]
+          - option "Euro"
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Register" [ref=e13] [cursor=pointer]:
+              - /url: /register?returnUrl=%2Fregister
+          - listitem [ref=e14]:
+            - link "Log in" [ref=e15] [cursor=pointer]:
+              - /url: /login?returnUrl=%2Fregister
+          - listitem [ref=e16]:
+            - link "Wishlist (0)" [ref=e17] [cursor=pointer]:
+              - /url: /wishlist
+              - generic [ref=e18] [cursor=pointer]: Wishlist
+              - generic [ref=e19] [cursor=pointer]: (0)
+          - listitem [ref=e20]:
+            - link "Shopping cart (0)" [ref=e21] [cursor=pointer]:
+              - /url: /cart
+              - generic [ref=e22] [cursor=pointer]: Shopping cart
+              - generic [ref=e23] [cursor=pointer]: (0)
+      - generic [ref=e24]:
+        - link "nopCommerce demo store" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img "nopCommerce demo store" [ref=e27] [cursor=pointer]
+        - search [ref=e28]:
+          - generic [ref=e29]:
+            - textbox "Search store" [ref=e30]
+            - button "Search" [ref=e31] [cursor=pointer]
+    - navigation [ref=e33]:
+      - menu "Categories" [ref=e34]:
+        - menuitem "Computers" [ref=e35]:
+          - button "Computers" [ref=e37] [cursor=pointer]
+        - menuitem "Electronics" [ref=e38]:
+          - button "Electronics" [ref=e40] [cursor=pointer]
+        - menuitem "Apparel" [ref=e41]:
+          - button "Apparel" [ref=e43] [cursor=pointer]
+        - menuitem "Digital downloads" [ref=e44]:
+          - button "Digital downloads" [ref=e45] [cursor=pointer]
+        - menuitem "Books" [ref=e46]:
+          - button "Books" [ref=e47] [cursor=pointer]
+        - menuitem "Jewelry" [ref=e48]:
+          - button "Jewelry" [ref=e49] [cursor=pointer]
+        - menuitem "Gift Cards" [ref=e50]:
+          - button "Gift Cards" [ref=e51] [cursor=pointer]
+    - main [ref=e52]:
+      - generic [ref=e55]:
+        - heading "Register" [level=1] [ref=e57]
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - heading "Your Personal Details" [level=2] [ref=e61]
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - generic [ref=e64]: "Gender:"
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - radio "Male" [checked] [active] [ref=e67]
+                    - generic [ref=e68]: Male
+                  - generic [ref=e69]:
+                    - radio "Female" [ref=e70]
+                    - generic [ref=e71]: Female
+              - generic [ref=e72]:
+                - generic [ref=e73]: "First name:"
+                - textbox "First name:" [ref=e74]
+                - generic [ref=e75]: "*"
+              - generic [ref=e76]:
+                - generic [ref=e77]: "Last name:"
+                - textbox "Last name:" [ref=e78]
+                - generic [ref=e79]: "*"
+              - generic [ref=e80]:
+                - generic [ref=e81]: "Email:"
+                - textbox "Email:" [ref=e82]
+                - generic [ref=e83]: "*"
+          - generic [ref=e84]:
+            - heading "Company Details" [level=2] [ref=e85]
+            - generic [ref=e87]:
+              - generic [ref=e88]: "Company name:"
+              - textbox "Company name:" [ref=e89]
+          - generic [ref=e90]:
+            - heading "Subscribe to newsletter" [level=2] [ref=e91]
+            - list [ref=e95]:
+              - listitem [ref=e96]:
+                - generic [ref=e97]: Newsletter
+                - checkbox "Newsletter" [checked] [ref=e98]
+          - generic [ref=e99]:
+            - heading "Your Password" [level=2] [ref=e100]
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: "Password:"
+                - textbox "Password:" [ref=e104]
+                - generic [ref=e105]: "*"
+              - generic [ref=e106]:
+                - generic [ref=e107]: "Confirm password:"
+                - textbox "Confirm password:" [ref=e108]
+                - generic [ref=e109]: "*"
+          - button "Register" [ref=e111] [cursor=pointer]
+    - contentinfo [ref=e112]:
+      - generic [ref=e113]:
+        - navigation [ref=e114]:
+          - heading "Information" [level=2] [ref=e115]
+          - menu "Information" [ref=e116]:
+            - menuitem "Sitemap" [ref=e117]:
+              - link "Sitemap" [ref=e118] [cursor=pointer]:
+                - /url: /sitemap
+            - menuitem "Shipping & returns" [ref=e119]:
+              - link "Shipping & returns" [ref=e120] [cursor=pointer]:
+                - /url: /shipping-returns
+            - menuitem "Privacy notice" [ref=e121]:
+              - link "Privacy notice" [ref=e122] [cursor=pointer]:
+                - /url: /privacy-notice
+            - menuitem "Conditions of Use" [ref=e123]:
+              - link "Conditions of Use" [ref=e124] [cursor=pointer]:
+                - /url: /conditions-of-use
+            - menuitem "About us" [ref=e125]:
+              - link "About us" [ref=e126] [cursor=pointer]:
+                - /url: /about-us
+            - menuitem "Contact us" [ref=e127]:
+              - link "Contact us" [ref=e128] [cursor=pointer]:
+                - /url: /contactus
+          - heading "Customer service" [level=2] [ref=e129]
+          - menu "Customer service" [ref=e130]:
+            - menuitem "Search" [ref=e131]:
+              - link "Search" [ref=e132] [cursor=pointer]:
+                - /url: /search
+            - menuitem "News" [ref=e133]:
+              - link "News" [ref=e134] [cursor=pointer]:
+                - /url: /news
+            - menuitem "Blog" [ref=e135]:
+              - link "Blog" [ref=e136] [cursor=pointer]:
+                - /url: /blog
+            - menuitem "Recently viewed products" [ref=e137]:
+              - link "Recently viewed products" [ref=e138] [cursor=pointer]:
+                - /url: /recentlyviewedproducts
+            - menuitem "Compare products list" [ref=e139]:
+              - link "Compare products list" [ref=e140] [cursor=pointer]:
+                - /url: /compareproducts
+            - menuitem "New products" [ref=e141]:
+              - link "New products" [ref=e142] [cursor=pointer]:
+                - /url: /newproducts
+          - heading "My account" [level=2] [ref=e143]
+          - menu "My account" [ref=e144]:
+            - menuitem "My account" [ref=e145]:
+              - link "My account" [ref=e146] [cursor=pointer]:
+                - /url: /customer/info
+            - menuitem "Orders" [ref=e147]:
+              - link "Orders" [ref=e148] [cursor=pointer]:
+                - /url: /order/history
+            - menuitem "Addresses" [ref=e149]:
+              - link "Addresses" [ref=e150] [cursor=pointer]:
+                - /url: /customer/addresses
+            - menuitem "Shopping cart" [ref=e151]:
+              - link "Shopping cart" [ref=e152] [cursor=pointer]:
+                - /url: /cart
+            - menuitem "Wishlist" [ref=e153]:
+              - link "Wishlist" [ref=e154] [cursor=pointer]:
+                - /url: /wishlist
+            - menuitem "Apply for vendor account" [ref=e155]:
+              - link "Apply for vendor account" [ref=e156] [cursor=pointer]:
+                - /url: /vendor/apply
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - heading "Follow us" [level=2] [ref=e159]
+            - list [ref=e160]:
+              - listitem [ref=e161]:
+                - link "Facebook" [ref=e162] [cursor=pointer]:
+                  - /url: https://www.facebook.com/nopCommerce
+              - listitem [ref=e163]:
+                - link "Twitter" [ref=e164] [cursor=pointer]:
+                  - /url: https://twitter.com/nopCommerce
+              - listitem [ref=e165]:
+                - link "RSS" [ref=e166] [cursor=pointer]:
+                  - /url: /news/rss/1
+              - listitem [ref=e167]:
+                - link "YouTube" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/nopCommerce
+              - listitem [ref=e169]:
+                - link "Instagram" [ref=e170] [cursor=pointer]:
+                  - /url: https://www.instagram.com/nopcommerce_official
+          - form [ref=e171]:
+            - heading "Newsletter" [level=2] [ref=e172]
+            - generic [ref=e174]:
+              - textbox "Sign up for our newsletter" [ref=e175]
+              - button "Subscribe" [ref=e176] [cursor=pointer]
+      - generic [ref=e177]:
+        - generic [ref=e179]: Copyright © 2025 nopCommerce demo store. All rights reserved.
+        - generic [ref=e180]:
+          - text: Powered by
+          - link "nopCommerce" [ref=e181] [cursor=pointer]:
+            - /url: https://www.nopcommerce.com/
+```

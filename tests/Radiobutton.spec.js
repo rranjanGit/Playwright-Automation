@@ -8,11 +8,9 @@ test('Handle Radio Button', async({page})=>{
     await page.locator("//input[@value='male']").check();  //male
    // await page.check("//input[@value='option2");
     await expect(await page.locator("//input[@value='male']")).toBeChecked();
-    await expect(await page.locator("//input[@value='male']").isChecked()).toBeTruthy();
+    await expect(await page.locator("//input[@value='male']").isChecked()).toBeTruthy(); //male
 
-
-    await expect(await page.locator("//input[@value='female']").isChecked()).toBeFalsy();
-
+    await expect(await page.locator("//input[@value='female']").isChecked()).toBeFalsy(); //female
 
     await page.waitForTimeout(5000);  //pausing code
 

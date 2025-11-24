@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - img "real-logo" [ref=e3]
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - paragraph [ref=e9]: Create Account
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - generic [ref=e14]:
+              - text: First Name
+              - generic [ref=e15]: "*"
+            - textbox "First Name" [ref=e17] [cursor=pointer]
+          - generic [ref=e19]:
+            - generic [ref=e20]:
+              - text: Last Name
+              - generic [ref=e21]: "*"
+            - textbox "Last Name" [ref=e23] [cursor=pointer]
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - text: Username
+              - generic [ref=e27]: "*"
+            - textbox "Username" [ref=e29] [cursor=pointer]
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - text: Email
+              - generic [ref=e33]: "*"
+            - generic [ref=e34]:
+              - img [ref=e37]
+              - textbox "Email" [ref=e39] [cursor=pointer]
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - text: Password
+              - generic [ref=e43]: "*"
+            - generic [ref=e44]:
+              - textbox "Password" [ref=e45] [cursor=pointer]
+              - img [ref=e47] [cursor=pointer]
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - text: Password Confirmation
+              - generic [ref=e52]: "*"
+            - generic [ref=e53]:
+              - textbox "Password Confirmation" [ref=e54] [cursor=pointer]
+              - img [ref=e56] [cursor=pointer]
+        - generic [ref=e58]:
+          - generic [ref=e60]:
+            - checkbox "By checking the box, I agree to the Privacy Policy, Terms of Use and Electronic Disclosure and Consent." [ref=e62] [cursor=pointer]
+            - paragraph [ref=e66]:
+              - text: By checking the box, I agree to the
+              - link "Privacy Policy" [ref=e67] [cursor=pointer]:
+                - /url: https://www.onereal.com/pages/privacy-policy
+              - text: ","
+              - link "Terms of Use" [ref=e68] [cursor=pointer]:
+                - /url: https://www.onereal.com/pages/terms-of-use
+              - text: and
+              - link "Electronic Disclosure" [ref=e69] [cursor=pointer]:
+                - /url: https://onereal.com/pages/electronic-disclosure
+              - text: and
+              - link "Consent" [ref=e70] [cursor=pointer]:
+                - /url: https://onereal.com/pages/data-policy
+              - text: .
+          - generic [ref=e72]:
+            - checkbox "By checking the applicable box below, I consent by electronic signature to receive calls and text messages from Real Broker, LLC and its affiliated entities, if the applicable box is checked, made by any means or technology, for informational, marketing, or any other purposes at the phone number I provided above. I understand that my consent to such calls and text messages is not required to purchase products from or use the services of any of the entities listed below." [ref=e74] [cursor=pointer]
+            - paragraph [ref=e78]: By checking the applicable box below, I consent by electronic signature to receive calls and text messages from Real Broker, LLC and its affiliated entities, if the applicable box is checked, made by any means or technology, for informational, marketing, or any other purposes at the phone number I provided above. I understand that my consent to such calls and text messages is not required to purchase products from or use the services of any of the entities listed below.
+        - generic [ref=e79]:
+          - button "Create Account" [ref=e80] [cursor=pointer]:
+            - generic [ref=e81] [cursor=pointer]:
+              - generic [ref=e83] [cursor=pointer]: Create Account
+              - img [ref=e85] [cursor=pointer]
+          - button "Already have an account? Log In" [ref=e87] [cursor=pointer]:
+            - generic [ref=e88] [cursor=pointer]:
+              - generic [ref=e90] [cursor=pointer]: Already have an account? Log In
+              - img [ref=e92] [cursor=pointer]
+    - img "Turn Listings Into Deals with first AI-Powered Real Estate Platform" [ref=e96]
+```

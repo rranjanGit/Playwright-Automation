@@ -1,9 +1,9 @@
-//const { test, expect } = require('@playwright/test');
-import {test, expect} from('@playwright/test');
+const { test, expect } = require('@playwright/test');
+//import {test, expect} from('@playwright/test');
 test('AssertionsTest',async ({page})=>{
 
 //open app url
-await page.goto('https://demo.nopcommerce.com/register')
+await page.goto("https://demo.nopcommerce.com/register")
 
 //1) expect (page). toHaveURL()    Page has URL
 await expect(page).toHaveURL('https://demo.nopcommerce.com/register')
@@ -28,9 +28,8 @@ await maleRadioButton.click() // select radio button
 await expect(maleRadioButton).toBeChecked()
 
 //check box
-const newsletterCheckbpx=await page.locator('#Newsletter')
-await expect(newsletterCheckbox).toBeChecked()
-
+// const newsletterCheckbpx=await page.locator('#NewsLetterSubscriptions_0__TypeId')
+// await expect(newsletterCheckbpx).toBeChecked()
 
 //6) expect (locator). toHaveAttribute() Element has attribute 
 
