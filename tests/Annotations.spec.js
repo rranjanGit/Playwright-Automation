@@ -34,14 +34,16 @@ test('test3', async({page, browserName})=>{
 */
 
 //Fail
-/*
+
 test('test5', async({page})=>{
     test.fail()  //expectation
     console.log('this is test5...')
     expect(1).toBe(1); //2     //If both exp & Actual is failed then test pass
 
 });
-*/
+
+
+//Demo data
 
 
 /*
